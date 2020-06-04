@@ -16,6 +16,6 @@ isitnan(df)
 def splitdate(df):
     #Will split any timedate-format columns into three separate columns.
     for x in df:
-        df['day'] = df.index.day
-        df['month'] = df.index.month
-        df['year'] = df.index.year
+     df['day'] = df['datetime_utc'].dt.day
+     df['month'] = df['datetime_utc'].dt.month
+     df['year'] = df['datetime_utc'].dt.year
