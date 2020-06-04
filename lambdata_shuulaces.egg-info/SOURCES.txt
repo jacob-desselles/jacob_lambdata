@@ -1,0 +1,6 @@
+README.md
+setup.py
+lambdata_shuulaces.egg-info/PKG-INFO
+lambdata_shuulaces.egg-info/SOURCES.txt
+lambdata_shuulaces.egg-info/dependency_links.txt
+lambdata_shuulaces.egg-info/top_level.txt
