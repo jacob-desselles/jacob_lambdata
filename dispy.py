@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-
 df = [20,0,12,-20,40, 'NaN', 'NaN']
 null = np.NaN
 class NanScan:
@@ -12,7 +11,6 @@ class NanScan:
                 print('FALSE')
             else:
                 print(x)
-isitnan(df)
 class DMY:
 
     def splitdate(df):

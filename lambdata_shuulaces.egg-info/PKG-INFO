@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: lambdata-shuulaces
-Version: 1.0
+Version: 1.1
 Summary: NaN identifier and date separater
 Home-page: https://github.com/jacob-desselles/jacob_lambdata
 Author: Jacob Desselles
 Author-email: jacob.desselles@gmail.com
 License: UNKNOWN
-Description: Will only scan NaNs if string, will also separate any date time objects into three different columns
+Description: Will only scan NaNs if string, will also separate any date time objects into three different columns. To call functions, use isitnan(df) and splitdate(df).
 Platform: UNKNOWN
 Description-Content-Type: text/markdown
